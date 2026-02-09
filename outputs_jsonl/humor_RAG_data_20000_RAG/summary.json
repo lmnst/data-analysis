@@ -1,0 +1,22 @@
+{
+  "file": "humor_RAG_data_20000_RAG.jsonl",
+  "n_lines": 20000,
+  "parse_error": 0,
+  "missing_fields": 0,
+  "missing_user_or_assistant": 0,
+  "empty_answer": 0,
+  "short_answer_<4words": 0,
+  "word_constraint_pass": 20000,
+  "word_constraint_pass_rate": 1.0,
+  "prompt_dup_rate": 0.00185,
+  "answer_dup_rate": 0.172,
+  "pair_dup_rate": 0.0,
+  "prompt_len_mean": 114.8616,
+  "answer_len_mean": 113.2222,
+  "answer_len_p50": 118,
+  "answer_len_p90": 144,
+  "notes": [
+    "word_constraint_pass_rate should be close to 1.0 for SFT",
+    "answer_dup_rate/pair_dup_rate should be low for RAG usefulness"
+  ]
+}
